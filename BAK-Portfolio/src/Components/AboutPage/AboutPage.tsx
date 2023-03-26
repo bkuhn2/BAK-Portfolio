@@ -6,7 +6,7 @@ import ContactSection from '../ContactSection/ContactSection'
 const AboutPage = () => {
   return (
     <>
-      <h1>ABOUT PAGE</h1>
+      <h1 className="text-5xl text-green-700 font-bold underline">ABOUT PAGE</h1>
       <AboutSection />
       <ContactSection />
     </>
