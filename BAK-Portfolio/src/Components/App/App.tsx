@@ -15,6 +15,7 @@ function App() {
       <ScrollToHashElement />
       <Routes>
         <Route path='/' element={<HomePage />} />
+          {/* How to scroll and have that update the URL??? */}
         <Route path='/projects' >
           <Route index element={<ProjectsPage />} />
           {/* How handle modal? :projectName ?? */}
