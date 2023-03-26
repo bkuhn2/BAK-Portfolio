@@ -3,7 +3,7 @@ import '../SkillsPage/SkillsPage.css'
 
 const SkillsPage = () => {
   return (
-    <h1>SKILLS PAGE</h1>
+    <h1 className='fixed font-semibold '>SKILLS PAGE</h1>
   )
 }
 

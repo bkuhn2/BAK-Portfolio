@@ -1,9 +1,9 @@
 import React from 'react'
-import '../AboutPage/AboutPage.css'
+import '../HomePage/HomePage.css'
 import AboutSection from '../AboutSection/AboutSection'
 import ContactSection from '../ContactSection/ContactSection'
 
-const AboutPage = () => {
+const HomePage = () => {
   return (
     <>
       <h1 className="text-5xl text-green-700 font-bold underline">ABOUT PAGE</h1>
@@ -14,4 +14,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default HomePage
