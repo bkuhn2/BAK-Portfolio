@@ -5,12 +5,11 @@ import ContactSection from '../ContactSection/ContactSection'
 
 const HomePage = () => {
   return (
-    <>
-      <h1 className="text-5xl text-green-700 font-bold underline">ABOUT PAGE</h1>
+    <main className='overflow-y-auto'>
       <AboutSection />
       <ContactSection />
-    </>
-    
+    </main>
+
   )
 }
 

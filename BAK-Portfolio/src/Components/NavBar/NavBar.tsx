@@ -11,7 +11,7 @@ const NavBar = () => {
   //generate path?
 
   return (
-    <nav className='flex-col grid justify-items-end w-full border-8 border-black'>
+    <nav className=' fixed flex-col grid justify-items-end w-full border-8 border-black'>
       <h1 className='border-4 border-green-600 text-right text-6xl w-fit '>
         Hi, I'm Brett Kuhn.
       </h1>
@@ -33,7 +33,7 @@ const NavBar = () => {
         <button>
           Skills
         </button>
-        <Link to='/#about-section'>TEST</Link>
+        <Link to='/#contactSection'>TEST</Link>
       </section>
     </nav>
   )
