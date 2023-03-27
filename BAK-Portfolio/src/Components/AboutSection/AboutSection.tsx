@@ -2,6 +2,8 @@ import React from 'react'
 import '../AboutSection/AboutSection.css'
 
 const AboutSection = () => {
+
+
   return (
     <section id='aboutSection' className='h-screen flex flex-col justify-center'>
       <br />

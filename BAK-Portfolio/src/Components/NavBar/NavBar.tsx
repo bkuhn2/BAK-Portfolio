@@ -9,6 +9,7 @@ const NavBar = () => {
   //Outlet Component?
   //use location?
   //generate path?
+  //scroll into view function???
 
   return (
     <nav className=' fixed flex-col grid justify-items-end w-full border-8 border-black'>
