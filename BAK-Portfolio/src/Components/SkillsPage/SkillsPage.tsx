@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from '../NavBar/NavBar'
 import '../SkillsPage/SkillsPage.css'
 
 const SkillsPage = () => {
   return (
-    <h1 className='fixed font-semibold '>SKILLS PAGE</h1>
+    <NavBar />
   )
 }
 
