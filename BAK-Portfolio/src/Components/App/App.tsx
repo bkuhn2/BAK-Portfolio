@@ -10,12 +10,10 @@ import ContactSection from '../ContactSection/ContactSection'
 function App() {
 
   return (
-    <main>
-      <NavBar />
+    <main className='h-screen scroll-behavior: smooth bg-main7 bg-no-repeat bg-cover bg-bottom bg-fixed fixed overflow-auto'>
       <Routes>
         <Route path='/' element={<AboutSection />} />
         <Route path='/contact' element={<ContactSection />} />
-        {/* Need resume component */}
         <Route path='/projects' >
           <Route index element={<ProjectsPage />} />
           {/* How handle modal? :projectName ?? */}
