@@ -1,37 +1,47 @@
 import React from 'react'
 import '../AboutSection/AboutSection.css'
+import NavBar from '../NavBar/NavBar'
 
 const AboutSection = () => {
 
 
   return (
-    <section id='aboutSection' className='h-screen flex flex-col justify-center'>
+    <>
+      <NavBar />
+      <section id='aboutSection' className='flex flex-col justify-center overflow-scroll' >
       <br />
-      <h1 className='text-5xl text-green-700 font-bold underline text-center mb-10'>About</h1>
+      <h1 className='border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
+        About</h1>
       <br />
-      <div className='flex justify-center'>
-        <section className='w-11/12 border-8 border-orange-700 flex justify-center items-center'>
-          <img className='border-8 border-black'/>
-        </section>
-        <section id='aboutTextSection' className='w-11/12 border-8 border-orange-700 flex flex-col justify-center items-center'>
-          <h2 className='text-right'>Who I Am</h2>
-          <p className='border-8 text-left w-4/5'>Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
-            Turing School of Software and Design. I'm passionate about building applications and solving complex 
+      <div className='flex flex-col items-center lg:items-start lg:flex-row lg:justify-center'>
+        {/* <section className='w-5/6 ml-14 mr-4 flex justify-center items-center'> */}
+        <img className='lg:ml-12 lg:mr-4 mb-6 contrast-125 w-48 h-48 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-md border-2 border-black drop-shadow-2xl' src='./src/assets/BAK2.jpg' alt='Brett Head Shot Photo'/>
+        <section 
+          id='aboutTextSection' 
+          className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left'>
+          <h2 className='text-center rounded-lg border-2 border-black drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
+            Who I Am...</h2>
+            {/* bg-gradient-to-r from-pink-700 to-amber-500' */}
+          <p className='rounded-lg border-2 border-black drop-shadow-2xl text-left w-full bg-stone-800 bg-opacity-90 backdrop-blur-sm p-7 text-md md:text-xl text-stone-200 '>
+            Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
+            Turing School of Software and Design. <br/><br/> I'm passionate about building applications and solving complex 
             problems, and I find great joy in new experiences and learning new things, both inside and outside of the 
             tech industry. Working as a part of a team is important to me, and I take pride in building a strong
             culture and fostering collaboration. When I'm not coding, you can find me traveling, rock climbing, playing
             music or building guitars.
-    
           </p>
           <br />
-          <h2>What I'm Working On</h2>
-          <ul>
+          <h2 className='shadow text-center rounded-lg border-2 border-black drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
+            What I'm Working On...</h2>
+          <ul className='rounded-lg border-2 border-black drop-shadow-2xl text-left w-full bg-stone-800 bg-opacity-90 backdrop-blur-sm p-7 text-md md:text-xl text-stone-200'>
             <li>Building...</li>
             <li>Learning...</li>
           </ul>
         </section>
       </div>
     </section>
+    </>
+
   )
 }
 
