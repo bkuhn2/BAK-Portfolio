@@ -16,7 +16,7 @@ const StyledLink = ({section}: Props) => {
           background: isActive ? 'rgba(83, 237, 253, 0.17)' : '',
           color: isActive ? 'white' : '',
           backdropFilter: isActive ? 'brightness(1.5)' : '',
-          textShadow: isActive ? '0 0 7px #000 , 0 0 10px #000, 0 0 15px #000, 0 0 21px #1BFFDF, 0 0 42px #5FECFC, 0 0 82px #29EBED, 0 0 151px #5FECFC' : '',
+          textShadow: isActive ? '0 0 7px #606060 , 0 0 10px #000, 0 0 15px #000, 0 0 21px #1BFFDF, 0 0 42px #5FECFC, 0 0 82px #29EBED, 0 0 151px #5FECFC' : '',
           borderColor: isActive ? '#D8D8D8' : '',
         }
       }}
