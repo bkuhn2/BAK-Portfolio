@@ -13,7 +13,8 @@ module.exports = {
         'desktop-1': "url('../src/assets/desktopA.jpg')",
         'desktop-2': "url('../src/assets/desktopB.jpg')",
         'desktop-3': "url('../src/assets/desktopC.jpg')",
-        'desktop-test': "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('../src/assets/desktopB.jpg')",
+        'main6': "url('../src/assets/main6.jpg')",
+        'main7': "url('../src/assets/main7.jpg')"
       }
     },
   },
