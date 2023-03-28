@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from '../NavBar/NavBar'
 import '../ProjectsPage/ProjectsPage.css'
 
 const ProjectsPage = () => {
   return (
-    <h1 className='h-screen'>PROJECTS PAGE</h1>
+    <NavBar />
   )
 }
 
