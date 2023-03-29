@@ -12,9 +12,9 @@ const ContactSection = () => {
   return (
     <>
       <NavBar /> 
-      <section id='contactSection' className=' flex flex-col justify-center overflow-y-scroll'>
+      <section id='contactSection' className=' flex flex-col justify-center'>
         <br />
-        <h1 className='border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
+        <h1 className='sticky top-0 z-20 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
           Contact</h1>
         <br />
         <div id='contactContainer' className='w-full flex flex-col justify-evenly items-center'>

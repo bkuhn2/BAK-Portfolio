@@ -8,9 +8,9 @@ const AboutSection = () => {
   return (
     <>
       <NavBar />
-      <section id='aboutSection' className='flex flex-col justify-center overflow-scroll' >
+      <section id='aboutSection' className='flex flex-col justify-center' >
         <br />
-        <h1 className='border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
+        <h1 className='sticky top-0 z-30 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
           About</h1>
         <br />
         <div className='flex flex-col items-center lg:items-start lg:flex-row lg:justify-center'>
@@ -18,11 +18,11 @@ const AboutSection = () => {
         <img className='lg:ml-12 lg:mr-4 mb-6 contrast-125 w-48 h-48 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-md border-2 border-black drop-shadow-2xl' src='./src/assets/BAK2.jpg' alt='Brett Head Shot Photo'/>
         <section 
           id='aboutTextSection' 
-          className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left'>
+          className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left mb-14'>
           <h2 className='text-center rounded-lg border-2 border-black drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
             Who I Am...</h2>
             {/* bg-gradient-to-r from-pink-700 to-amber-500' */}
-          <p className='indent-8 rounded-lg border-2 border-black drop-shadow-2xl text-left w-full bg-stone-800 bg-opacity-90 backdrop-blur-sm p-7 text-md md:text-xl text-stone-200 '>
+          <p className='indent-8 rounded-lg border-2 border-black drop-shadow-2xl text-justify w-full bg-stone-800 bg-opacity-90 backdrop-blur-sm p-7 text-md md:text-xl text-stone-200 '>
             Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
             Turing School of Software and Design. <br/><br/> <p>I'm passionate about building applications and solving complex 
             problems, and I love new experiences and learning new things, both inside and outside of the 
@@ -34,7 +34,7 @@ const AboutSection = () => {
           <h2 className='shadow text-center rounded-lg border-2 border-black drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
             What I'm Working On...</h2>
           <ul className='rounded-lg border-2 border-black drop-shadow-2xl text-left w-full bg-stone-800 bg-opacity-90 backdrop-blur-sm p-7 text-md md:text-xl text-stone-200'>
-            <li className='mx-6 list-disc list-outside'><b className='text-teal-500'><u>Next project:</u></b> working on a game app in a four person team (planning stages)</li>
+            <li className='mx-6 list-disc list-outside'><b className='text-teal-500'><u>Next project:</u></b> working on a game app in a four person team (early planning stages, TBD)</li>
             <li className='mx-6 list-disc list-outside'><b className='text-teal-500'><u>Currently learning:</u></b> Next.js, Express</li>
             <li className='mx-6 list-disc list-outside'><b className='text-teal-500'><u>What else:</u></b> Adding to this site! More features and more projects, and deploying previous student projects.</li>
           </ul>
