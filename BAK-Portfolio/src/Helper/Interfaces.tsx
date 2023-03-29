@@ -5,5 +5,6 @@ export interface Project {
   githubURL: string,
   deployedURL: string | undefined,
   img: string,
-  notes: string | undefined
+  notes: string | undefined,
+  id: number
 }
