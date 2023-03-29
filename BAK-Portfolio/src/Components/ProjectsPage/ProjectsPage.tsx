@@ -4,26 +4,36 @@ import '../ProjectsPage/ProjectsPage.css'
 import { brettProjects } from '../../data/brettProjectsData'
 import { Project } from '../../Helper/Interfaces'
 import ProjectThumbnail from '../ProjectThumbnail/ProjectThumbnail'
+import ProjectModal from '../ProjectModal/ProjectModal'
+import { useParams } from 'react-router-dom'
 
-const ProjectsPage = () => {
+type Prop = {
+  allProjects: Project[] | undefined,
+  modalOn: boolean,
+  setModalOn: Function
+}
 
-  const [allProjects, setProjects] = useState<Project[]>();
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState<Project[]>();
+const ProjectsPage = ({ allProjects, modalOn, setModalOn }: Prop) => {
+
+  // Additional state: extension of filtering by tech, etc
+  // const [searchTerm, setSearchTerm] = useState('');
+  // const [searchResults, setSearchResults] = useState<Project[]>();
+
+  const projectID = useParams().id
+
+  useEffect(() => {
+    (projectID) ? setModalOn(true) : setModalOn(false)
+  }, [projectID]);
     
-  useEffect(()=> {
-    setProjects(brettProjects)
-  }, []);
-
   const thumbnails = allProjects ? allProjects.map((project, index) => {
     return (
-      <ProjectThumbnail project={project} key={index}/>
+      <ProjectThumbnail project={project} key={index} />
     )
   }) : '';
 
-
   return (
     <>
+      {modalOn && <ProjectModal id={projectID} allProjects={allProjects} />}
       <NavBar />
       <section className='flex flex-col items-center'>
         <br />
@@ -41,14 +51,11 @@ const ProjectsPage = () => {
             onChange={event => setSearchTerm(event.target.value)}    
           />
         </form> */}
-        <br /><br />
-        {(searchTerm && !searchResults)&& <h2 className='text-2xl md:text-5xl text-red-700 text-center'>No results (yet!), try another or make sure word entered correctly.</h2>}
+        <br />
+        {!allProjects && <h2 className='text-2xl md:text-5xl text-red-700 text-center'>Loading</h2>}
+        {/* {(searchTerm && !searchResults)&& <h2 className='text-2xl md:text-5xl text-red-700 text-center'>No results (yet!), try another or make sure word entered correctly.</h2>} */}
         <section className='w-full grid grid-cols-2 gap-y-10 md:gap-y-20 justify-items-center justify-evenly p-1 mb-16'>
-          {/*Make conditional .. loading, no results, etc */}
-          {(!searchResults && !thumbnails) && <h2>Loading</h2>}
-          {(!searchTerm && thumbnails) && thumbnails}
-          
-          {/*if search term AND search results... */}
+          {allProjects && thumbnails}
         </section>
       </section>
     </>
