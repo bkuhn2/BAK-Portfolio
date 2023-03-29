@@ -14,14 +14,12 @@ const AboutSection = () => {
           ABOUT</h1>
         <br />
         <div className='flex flex-col items-center lg:items-start lg:flex-row lg:justify-center'>
-        {/* <section className='w-5/6 ml-14 mr-4 flex justify-center items-center'> */}
         <img className='lg:ml-12 lg:mr-4 mb-6 contrast-125 w-48 h-48 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-md border-2 border-stone-800 drop-shadow-2xl' src='./src/assets/BAK2.jpg' alt='Brett Head Shot Photo'/>
         <section 
           id='aboutTextSection' 
           className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left mb-14'>
           <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             Who I Am...</h2>
-            {/* bg-gradient-to-r from-pink-700 to-amber-500' */}
           <p className='font-font5 indent-8 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
             Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
             Turing School of Software and Design. <br/><br/> <p>I'm passionate about building applications and solving complex 
@@ -34,9 +32,9 @@ const AboutSection = () => {
           <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             What I'm Working On...</h2>
           <ul className='font-font5 eading-6 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
-            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>Next project:</u></b> A card game app in a four person team using Next.js (more details to come)</li>
-            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>Currently learning:</u></b> Next.js, Express</li>
-            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>What else:</u></b> Adding to this site! More features and more projects, and deploying previous student projects.</li>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'>Next project... </b> Producing a card game app in a four person front end team that will incorporate a back end database.</li>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'>Currently learning... </b> Next.js, Express.</li>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'>What else? </b> Adding to this site! More features and more projects, and deploying previous student projects.</li>
           </ul>
         </section>
       </div>
