@@ -7,11 +7,21 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'black-texture1': "url('../src/assets/annie-spratt-6a3nqQ1YwBw-unsplash.jpg')",
-        'desktop-2': "url('../src/assets/desktopB.jpg')",
-        'desktop-3': "url('../src/assets/desktopC.jpg')",
-        'main6': "url('../src/assets/main6.jpg')",
         'main7': "url('../src/assets/main7.jpg')"
+      },
+      spacing: {
+        '110': '28rem',
+        '120': '32rem'
+      },
+      fontFamily: {
+        'font1': ['Averia Serif Libre', 'cursive'],
+        'font2': ['Fjalla One', 'sans-serif'],
+        'font3': ['Gloock', 'serif'],
+        'font4': ['Hammersmith One', 'sans-serif'],
+        'font5': ['Hind Siliguri', 'sans-serif'],
+        'font6': ['Nanum Myeongjo', 'serif'],
+        'font7': ['Satisfy', 'cursive'],
+        'font8': [ 'Unica One', 'cursive']
       }
     },
   },
