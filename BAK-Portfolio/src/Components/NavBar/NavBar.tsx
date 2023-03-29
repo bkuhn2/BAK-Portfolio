@@ -15,8 +15,8 @@ const NavBar = () => {
   return (
     <nav
       className='bg-black bg-opacity-80 backdrop-blur-sm flex-col grid justify-items-center w-screen min-h-fit border-2 border-black shadow-xl'>
-      <h1 className='text-center text-5xl md:text-6xl w-fit text-zinc-50 px-7 py-6 '>
-        Hi, I'm Brett Kuhn.
+      <h1 className='text-center text-4xl md:text-5xl lg:text-6xl w-11/12 text-zinc-50 px-7 py-6 '>
+        Brett Kuhn  //<span className='text-3xl md:text-4xl lg:text-5xl'>  Software Engineer</span>
       </h1>
       <section className='w-full flex-row flex justify-center'>
         {links}
