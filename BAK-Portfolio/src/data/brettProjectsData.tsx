@@ -8,7 +8,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/Vinyl_Viewer',
     deployedURL: 'https://vinylviewer.netlify.app/',
     img: 'https://i.imgur.com/IQGHqtY.png',
-    notes: ''
+    notes: '',
+    id: 0
   },
   {
     name: 'Cocktail Evening',
@@ -17,7 +18,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/Cocktail_Evening',
     deployedURL: 'https://cocktailevening.netlify.app/',
     img: 'https://i.imgur.com/wGr40kW.png',
-    notes: ''
+    notes: '',
+    id: 1
   },
   {
     name: 'Board Together',
@@ -26,7 +28,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/board-together',
     deployedURL: 'https://board-together.surge.sh/',
     img: 'https://i.imgur.com/ovXqlCj.jpg',
-    notes: 'Currently undergoing maintenance.'
+    notes: 'Currently undergoing maintenance.',
+    id: 2
   },
   {
     name: 'Overlook',
@@ -35,7 +38,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/Overlook-Solo-Project',
     deployedURL: '',
     img: 'https://i.imgur.com/A1erNpp.png',
-    notes: ''
+    notes: '',
+    id: 3
   },
   {
     name: 'Round Up',
@@ -44,7 +48,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/roundup',
     deployedURL: 'https://roundup-takehome.netlify.app/',
     img: 'https://i.imgur.com/Zr7EJiK.png',
-    notes: ''
+    notes: '',
+    id: 4
   },
   {
     name: 'Neatflix',
@@ -53,7 +58,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/Neatflix',
     deployedURL: '',
     img: 'https://i.imgur.com/Vdxym81.jpg',
-    notes: ''
+    notes: '',
+    id: 5
   },
   {
     name: `Rock, Paper, Scissors`,
@@ -62,7 +68,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/Rock_Paper_Scissors',
     deployedURL: 'https://bkuhn2.github.io/Rock_Paper_Scissors/',
     img: 'https://i.imgur.com/8qISgEc.png',
-    notes: ''
+    notes: '',
+    id: 6
   },
   {
     name: `What's Cookin' Good Lookin'`,
@@ -71,7 +78,8 @@ export const brettProjects = [
     githubURL: 'https://github.com/bkuhn2/whats-cookin-good-lookin',
     deployedURL: '',
     img: 'https://i.imgur.com/Ry9VEmD.png',
-    notes: ''
+    notes: '',
+    id: 7
   },
 
 ];
