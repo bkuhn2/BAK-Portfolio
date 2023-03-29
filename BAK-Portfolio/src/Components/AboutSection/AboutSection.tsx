@@ -10,8 +10,8 @@ const AboutSection = () => {
       <NavBar />
       <section id='aboutSection' className='flex flex-col justify-center' >
         <br />
-        <h1 className='sticky top-0 z-30 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
-          About</h1>
+        <h1 className='font-font4 sticky top-0 z-30 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 pt-4 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
+          ABOUT</h1>
         <br />
         <div className='flex flex-col items-center lg:items-start lg:flex-row lg:justify-center'>
         {/* <section className='w-5/6 ml-14 mr-4 flex justify-center items-center'> */}
@@ -19,24 +19,24 @@ const AboutSection = () => {
         <section 
           id='aboutTextSection' 
           className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left mb-14'>
-          <h2 className='text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
+          <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             Who I Am...</h2>
             {/* bg-gradient-to-r from-pink-700 to-amber-500' */}
-          <p className='indent-8 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
+          <p className='font-font5 indent-8 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
             Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
             Turing School of Software and Design. <br/><br/> <p>I'm passionate about building applications and solving complex 
-            problems, and I love new experiences and learning new things, both inside and outside of the 
+            problems, and I love new experiences and learning new things both inside and outside of the 
             tech industry. Working as a part of a team is important to me, and I take pride in building a strong
             culture. When I'm not coding, you can find me traveling, rock climbing, playing
             music or building guitars.</p>
           </p>
           <br />
-          <h2 className='shadow text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-zinc-800 to-stone-700'>
+          <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             What I'm Working On...</h2>
-          <ul className='leading-6 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
-            <li className='mx-6 list-disc list-outside'><b className='text-stone-800'><u>Next project:</u></b> working on a game app in a four person team (early planning stages, TBD)</li>
-            <li className='mx-6 list-disc list-outside'><b className='text-stone-800'><u>Currently learning:</u></b> Next.js, Express</li>
-            <li className='mx-6 list-disc list-outside'><b className='text-stone-800'><u>What else:</u></b> Adding to this site! More features and more projects, and deploying previous student projects.</li>
+          <ul className='font-font5 eading-6 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-md md:text-xl text-stone-700 backdrop-brightness-125'>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>Next project:</u></b> A card game app in a four person team using Next.js (more details to come)</li>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>Currently learning:</u></b> Next.js, Express</li>
+            <li className='mx-6 list-disc list-outside'><b className='font-font4 text-stone-800'><u>What else:</u></b> Adding to this site! More features and more projects, and deploying previous student projects.</li>
           </ul>
         </section>
       </div>

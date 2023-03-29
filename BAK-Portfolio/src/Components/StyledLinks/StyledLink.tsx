@@ -9,7 +9,8 @@ type Props = {
 const StyledLink = ({section}: Props) => {
   return (
     <NavLink 
-      className='text-zinc-50 text-md sm:text-2xl border-2 border-zinc-500 shadow-lg rounded-lg w-20 md:w-36 md:px-7 md:py-3 text-center h-fit hover:backdrop-blur-sm bg-neutral-50/10 hover:scale-105 mx-1 md:mx-3' 
+    // {/*font 7 lower or 8 upper */}
+      className='font-font8 uppercase text-zinc-50 text-md sm:text-2xl border-2 border-zinc-500 shadow-lg rounded-lg w-20 md:w-36 md:px-7 md:py-3 text-center h-fit hover:backdrop-blur-sm bg-neutral-50/10 hover:scale-105 mx-1 md:mx-3' 
       to={section === 'about' ? '/' : `/${section}`}
       style={({isActive}) => {
         return {

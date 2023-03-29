@@ -14,12 +14,12 @@ const ContactSection = () => {
       <NavBar /> 
       <section id='contactSection' className=' flex flex-col justify-center'>
         <br />
-        <h1 className='sticky top-0 z-20 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
-          Contact</h1>
+        <h1 className='font-font4 sticky top-0 z-20 border-2 border-stone-300 bg-white text-2xl md:text-5xl bg-opacity-60 backdrop-blur-sm w-screen py-3 pt-4 text-stone-800 font-bold text-center mb-10 drop-shadow-sm'>
+          CONTACT</h1>
         <br />
         <div id='contactContainer' className='w-full flex flex-col justify-evenly items-center'>
           <div id='socialsContainer' className='flex flex-row justify-center content-evenly'>
-            <div className='mb-5 text-lg md:text-3xl text-stone-800 font-bold text-center rounded-lg w-min flex border-2 border-stone-300 bg-stone-50 bg-opacity-70 backdrop-brightness-105 backdrop-blur-sm px-10 py-6'>
+            <div className=' font-font5 decoration-2 mb-5 text-lg md:text-3xl underline-offset-4 decoration-teal-500 text-stone-800 font-bold text-center rounded-lg w-min flex border-2 border-stone-300 bg-stone-50 bg-opacity-70 backdrop-brightness-105 backdrop-blur-sm px-10 py-6'>
               <Link className='mx-4 w-32 md:w-48 flex flex-col hover:underline' to='https://www.linkedin.com/in/brett-kuhn/'>
                 <img className='hover:scale-105 mb-4' src='./src/assets/In-Blue-72@2x.png'/>
                 <p>LinkedIn</p>
