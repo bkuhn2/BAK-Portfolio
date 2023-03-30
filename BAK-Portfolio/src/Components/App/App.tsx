@@ -8,6 +8,7 @@ import AboutSection from '../AboutSection/AboutSection'
 import ContactSection from '../ContactSection/ContactSection'
 import { Project } from '../../Helper/Interfaces'
 import { brettProjects } from '../../data/brettProjectsData'
+import NoMatch from '../NoMatch/NoMatch'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path=':id' element={<ProjectsPage allProjects={allProjects} modalOn={modalOn} setModalOn={setModalOn}/>} />
         </Route>
         <Route path='/skills' element={<SkillsPage />} />
+        <Route path='*' element={<NoMatch />}/>
       </Routes>
     </main>
   )
