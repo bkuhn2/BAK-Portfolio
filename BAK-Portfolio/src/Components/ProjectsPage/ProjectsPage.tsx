@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from '../NavBar/NavBar'
 import '../ProjectsPage/ProjectsPage.css'
-import { brettProjects } from '../../data/brettProjectsData'
 import { Project } from '../../Helper/Interfaces'
 import ProjectThumbnail from '../ProjectThumbnail/ProjectThumbnail'
 import ProjectModal from '../ProjectModal/ProjectModal'

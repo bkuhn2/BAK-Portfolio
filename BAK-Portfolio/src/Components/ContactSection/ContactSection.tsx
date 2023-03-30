@@ -5,9 +5,10 @@ import NavBar from '../NavBar/NavBar'
 
 const ContactSection = () => {
 
-  const [message, setMessage] = useState('');
-  const [email, setEmail] = useState(''); //how validate
-  const [name, setName] = useState('');
+  // FUTURE EXTENSION: MESSAGING
+  // const [message, setMessage] = useState('');
+  // const [email, setEmail] = useState(''); 
+  // const [name, setName] = useState('');
 
   return (
     <>
@@ -31,7 +32,7 @@ const ContactSection = () => {
             </div>
           </div>
           <br /><br />
-          {/* COME BACK AND FINISH */}
+          {/* COME BACK AND FINISH EXTENSION */}
           {/* <h2 className='border-2 border-stone-300 bg-white text-xl md:text-3xl bg-opacity-60 backdrop-blur-sm w-screen py-1 text-stone-800 font-bold text-center mb-7 drop-shadow-sm'>
             Or, Send Me A Message Directly</h2>
           <form id='messageContainer' className='flex flex-col items-center w-full ' autoComplete='off'>

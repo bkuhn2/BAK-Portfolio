@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import NavBar from '../NavBar/NavBar'
 import ProjectsPage from '../ProjectsPage/ProjectsPage'
 import SkillsPage from '../SkillsPage/SkillsPage'
 import { Routes, Route } from 'react-router-dom'
